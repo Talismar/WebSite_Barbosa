@@ -1,0 +1,62 @@
+@media (max-width: 900px){
+  .header-container{
+    height: 120px;
+    width: 90vw;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  main {
+    width: 90vw;
+    margin: 30px auto 0 auto;
+  }
+
+  main h1 {
+    font-size: 8vw;
+  }
+
+  main > img{ 
+    margin-bottom: 10px;
+  }
+
+  .area-reservations{
+    width: 90vw; 
+  }
+
+  .area-reservations h2 {
+    font-size: 5.2vw;
+  }
+
+  .footer-container {
+    width: 90vw;
+  }
+}
+
+@media (max-width: 640px){
+  .header-container{
+    justify-content: space-around;
+  }
+  .navbar-container{
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 600px){ 
+  .main-item {
+    flex-direction: column;
+  }
+
+  .mobile{
+    flex-direction: column-reverse;
+  }
+
+  .main-item img {
+    width: 100%;
+  }
+
+  .session-feedbacks{
+    flex-direction: column;
+  }
+}
